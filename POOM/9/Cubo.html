@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cubo de prueba</title>
+	<!-- Esta parte del codigo añade la imagen de fondo y lo repite en mosaico -->
+	<style>
+		body{
+			margin: 4;
+			background-image: url("BGI.jpg");
+  			background-repeat: repeat;
+		}
+		canvas {display: block;}
+	</style>
+</head>
+<body>
+	<center>
+		<!-- Esta parte del codigo crea un recuadro con fondo blanco para que el texto se lea bien (a diferencia de si estuviera sobre la imagen -->
+		<fieldset style="background-color: white; font-size:15px; padding:5px; width:450px;line-height:1;">
+		<h1 style="color:black;">Presentando... A circulo y a cuadrado! (triangulo y rectangulo estan de vacaciones)</h1>
+		</fieldset>
+	</center>
+	<!-- Esta parte del codigo llama a la libreria 3D y al codigo del proyecto -->
+	<script src="three.js" "></script>
+	<script src="Cubo.js"></script>
+	<!-- Esta parte del codigo añade la musica de fondo -->
+	<embed src="BGM.mp3" width="0" height="0" loop="true">
+		<a href="../index.html"><input type="button" value="Volver al indice"></a>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cubo de prueba</title>
+	<!-- Esta parte del codigo añade la imagen de fondo y establece que cubra toda la pestaña -->
+	<style>
+		body{
+			margin: 4;
+			background-image: url("BGI.jpg");
+			background-size: cover;
+		}
+		canvas {display: block;}
+	</style>
+</head>
+<body>
+	<center>
+		<!-- Esta parte del codigo crea un recuadro con fondo verde y texto cafe para que quede bien con el ambiente -->
+		<fieldset style="background-color: green; font-size:15px; padding:5px; width:450px;line-height:1;">
+		<h1 style="color:brown;">The forrest elemental lord summoning cube</h1>
+		</fieldset>
+	</center>
+	<!-- Esta parte del codigo llama a la libreria 3D y al codigo del proyecto -->
+	<script src="three.js" "></script>
+	<script src="Program_True.js"></script>
+	<!-- Esta parte del codigo añade la musica de fondo, la cual se reproducira automaticamente y se modifica el tamaño para que no salga un reproductor y sea "de fondo" -->
+	<embed src="BGM.mp3" width="0" height="0" loop="true">
+	<a href="../index.html"><input type="button" value="Volver al indice"></a>
+</body>
+</html>
